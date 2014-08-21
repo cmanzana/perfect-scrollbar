@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/cmanzana/perfect-widget-scrollbar",
   "authors": [
-    "Hyeonje Alex Jun <me@noraesae.net>"
+    "Hyeonje Alex Jun <me@noraesae.net>",
     "Carlos Manzanares"
   ],
   "description": "Widget ready version of perfect-scrollbar jQuery scrollbar plugin",

@@ -5,7 +5,7 @@ module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
     // Metadata.
-    pkg: grunt.file.readJSON('perfect-scrollbar.jquery.json'),
+    pkg: grunt.file.readJSON('perfect-widget-scrollbar.jquery.json'),
     version: grunt.file.readJSON('package.json').version,
     banner: '/*! <%= pkg.title || pkg.name %> - v<%= version %>\n' +
       '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
