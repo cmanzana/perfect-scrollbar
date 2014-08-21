@@ -1,4 +1,4 @@
-perfect-scrollbar [![Travis CI](https://travis-ci.org/cmanzana/perfect-widget-scrollbar.svg?branch=master)](https://travis-ci.org/cmanzana/perfect-widget-scrollbar) [![Gitter chat](https://badges.gitter.im/noraesae/perfect-scrollbar.png)](https://gitter.im/noraesae/perfect-scrollbar)
+perfect-scrollbar [![Travis CI](https://travis-ci.org/cmanzana/perfect-widget-scrollbar.svg?branch=master)](https://travis-ci.org/cmanzana/perfect-widget-scrollbar) [![Gitter chat](https://badges.gitter.im/cmanzana/perfect-widget-scrollbar.png)](https://gitter.im/cmanzana/perfect-widget-scrollbar)
 =================
 
 Tiny but perfect jQuery scrollbar plugin
