@@ -1,11 +1,12 @@
 {
-  "name": "perfect-scrollbar",
-  "version": "0.4.11",
-  "homepage": "http://noraesae.github.io/perfect-scrollbar/",
+  "name": "perfect-widget-scrollbar",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cmanzana/perfect-widget-scrollbar",
   "authors": [
     "Hyeonje Alex Jun <me@noraesae.net>"
+    "Carlos Manzanares"
   ],
-  "description": "Tiny but perfect jQuery scrollbar plugin",
+  "description": "Widget ready version of perfect-scrollbar jQuery scrollbar plugin",
   "main": [
     "min/perfect-scrollbar.min.css",
     "min/perfect-scrollbar.min.js",
