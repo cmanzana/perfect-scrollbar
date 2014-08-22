@@ -1,57 +1,37 @@
-perfect-scrollbar [![Travis CI](https://travis-ci.org/cmanzana/perfect-widget-scrollbar.svg?branch=master)](https://travis-ci.org/cmanzana/perfect-widget-scrollbar) [![Gitter chat](https://badges.gitter.im/cmanzana/perfect-widget-scrollbar.png)](https://gitter.im/cmanzana/perfect-widget-scrollbar)
+perfect-widget-scrollbar [![Travis CI](https://travis-ci.org/cmanzana/perfect-widget-scrollbar.svg?branch=master)](https://travis-ci.org/cmanzana/perfect-widget-scrollbar) [![Gitter chat](https://badges.gitter.im/cmanzana/perfect-widget-scrollbar.png)](https://gitter.im/cmanzana/perfect-widget-scrollbar)
 =================
 
-Tiny but perfect jQuery scrollbar plugin
+Widget ready version of perfect-scrollbar jQuery scrollbar plugin.
 
-Why perfect-scrollbar?
+This is a fork of [perfect-scrollbar](https://github.com/noraesae/perfect-scrollbar).
+
+
+Why a fork of perfect-scrollbar?
 ------------------
 
-I worked on a personal project recently, and I was trying to find the jQuery scrollbar plugin that's *perfect*. But there was no *perfect* scrollbar plugin. That's why I decided to make one.
+The purpose of perfect-widget-scrollbar is to provide scrollbars that can be added to widget containers. Widget are iframes that offer a view on another html document, and sometimes such view does not represent the full document, i.e.: parts of the document are trimmed. This is where perfect-widget-scrollbar comes into play, as it allows to provide function factories to perfect-scrollbar to override the default behavior of scrolling of a container.
 
-perfect-scrollbar is very tiny but *perfect* (for me, and maybe for the most of developers) jQuery scrollbar plugin.  
-I hope you love this!
+perfect-scrollbar and perfect-widget-scrollbar
+------------------
 
-Demo: http://noraesae.github.com/perfect-scrollbar/
-
-What does *perfect* mean?
----------------------
-
-*perfect* means...
-
-* There should be no css change on any original element.
-* The scrollbar should not affect the original design layout.
-* The design of the scrollbar should be (nearly) fully customizable.
-* If the size of the container or the content changes, the scrollbar size and position should be able to change.
-
-Then perfect-scrollbar is really *perfect*?
--------------------------------------------
-
-Yes! the only thing that's not *perfect* is my English.
-
-* perfect-scrollbar has some requirements, but doesn't change or add any style on original elements.
-* perfect-scrollbar is designed not to have width or height. It's fixed on the right and bottom side of the container.
-* You can change nearly all css styles of the scrollbar. The scrollbar design has no dependency on scripts.
-* perfect-scrollbar support 'update' function. Whenever you need to update the size or position of the scrollbar, just update.
-* Additionally, perfect-scrollbar do use 'scrollTop' and 'scrollLeft', not absolute position or something messy.
-
-It's cool, isn't it?
+The aim of this fork is to provide additional functionality over perfect-scrollbar, this means that feature parity and compatibility to perfect-scrollbar is provided (i.e.: if you are using perfect-scrollbar and you are interested in perfect-widget-scrollbar then you do not need to use both plugins in your projects)
 
 Install
 -------
 
-You can download the latest stable version with download links in [Github Page](http://noraesae.github.io/perfect-scrollbar/). You also can find all releases in [Releases](https://github.com/noraesae/perfect-scrollbar/releases) page.
+You can find all releases in [Releases](https://github.com/cmanzana/perfect-widget-scrollbar/releases) page.
 
 If you want to use the development version of the plugin, use the source files which are not minified. They're in the `src` directory. The development version may be unstable, but some known bugs can be fixed.
 
 ```
-git clone https://github.com/noraesae/perfect-scrollbar.git
-cd perfect-scrollbar/src
+git clone https://github.com/cmanzana/perfect-widget-scrollbar.git
+cd perfect-widget-scrollbar/src
 ```
 
-You can use [Bower](http://bower.io/) to install the plugin. The plugin is registered as `perfect-scrollbar`.
+You can use [Bower](http://bower.io/) to install the plugin. The plugin is registered as `perfect-widget-scrollbar`.
 
 ```
-bower install perfect-scrollbar
+bower install perfect-widget-scrollbar
 ```
 
 Requirements
@@ -243,16 +223,15 @@ If you want to make this plugin's update function more responsive, [jquery-resiz
 Contribution
 ------------
 
-#### Please read [Contributing](https://github.com/noraesae/perfect-scrollbar/wiki/Contributing) in the wiki before making any contibution.
+#### Please read [Contributing](https://github.com/cmanzana/perfect-widget-scrollbar/wiki/Contributing) in the wiki before making any contibution.
 
 
 I *really* welcome contributions! Please feel free to fork and issue pull requests when...
 
 * You have a very nice idea to improve this plugin!
 * You found a bug!
-* You're good at English and can help my bad English!
 
-For IE problems, please refer to [IE Support](https://github.com/noraesae/perfect-scrollbar#ie-support)
+For IE problems, please refer to [IE Support](https://github.com/cmanzana/perfect-widget-scrollbar#ie-support)
 
 IE Support
 ----------
@@ -268,9 +247,9 @@ When old IEs should be supported, please fork the project and make patches perso
 Helpdesk
 --------
 
-If you have any idea to improve this project or any problem using this, please feel free to upload an [issue](https://github.com/noraesae/perfect-scrollbar/issues).
+If you have any idea to improve this project or any problem using this, please feel free to upload an [issue](https://github.com/cmanzana/perfect-widget--scrollbar/issues).
 
-If it's a simple question or issue, you may want to ask in [Gitter chat](https://gitter.im/noraesae/perfect-scrollbar), which may be the simplest way to contact me.
+If it's a simple question or issue, you may want to ask in [Gitter chat](https://gitter.im/cmanzana/perfect-widget-scrollbar), which may be the simplest way to contact me.
 
 License
 -------
